@@ -28,8 +28,10 @@ public class Salary {
 
 	@Override
 	public String toString() {
-		return "Salary [basic=" + basic + ", da=" + da + ", hra=" + hra + ", pf=" + pf + ", gross=" + gross + ", net="
-				+ net + "]";
+//		return "Salary [basic=" + basic + ", da=" + da + ", hra=" + hra + ", pf=" + pf + ", gross=" + gross + ", net="
+//				+ net + "]";
+		return "Salary => basic: " + basic + ", da: " + da + ", hra: " + hra + ", pf: " + pf + ", gross: " + gross + ", net: "
+				+ net ;
 	}
 	
 
