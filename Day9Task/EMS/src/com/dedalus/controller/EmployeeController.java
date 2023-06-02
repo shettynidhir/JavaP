@@ -108,7 +108,8 @@ public class EmployeeController implements EmployeeInterface{
 	}
 	public void sortEmpno()
 	{
-		Collections.sort(emplist,Employee.empnoComparator);
+//		Collections.sort(emplist,Employee.empnoComparator);
+		Collections.sort(emplist);
 		System.out.println("Employee details after empn sorting: "+emplist);
 		
 	}

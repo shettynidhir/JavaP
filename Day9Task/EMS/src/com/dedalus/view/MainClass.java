@@ -30,7 +30,7 @@ public class MainClass {
 			System.out.println("Employee Management System");
 				do
 				{
-					System.out.println("1. Add employee\n2.View employee\n3.Serialize\n4.Deserialize\n5.Update employee\n6.Delete employee\n7.Sort employee w.r.t name\n8.Sort employee w.r.t salary ");
+					System.out.println("1. Add employee\n2.View employee\n3.Serialize\n4.Deserialize\n5.Update employee\n6.Delete employee\n7.Sort employee w.r.t name\n8.Sort employee w.r.t empno ");
 					System.out.print("Enter your choice: ");
 					int ch=sc.nextInt();
 					switch(ch)

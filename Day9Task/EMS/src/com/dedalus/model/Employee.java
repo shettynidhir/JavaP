@@ -5,7 +5,9 @@ import java.util.Comparator;
 
 
 
-public class Employee implements Serializable{
+
+
+public class Employee implements Comparable<Employee>, Serializable{
 	private int empno;
 	private String ename;
 
@@ -40,22 +42,22 @@ public class Employee implements Serializable{
 		
 	};
 	
-//	public int compareTo(Employee e1) {
+	public int compareTo(Employee e1) {
+		
+		return this.empno - e1.empno;
+	
+	}	
+	
+//	public static Comparator<Employee> empnoComparator = new Comparator<Employee>() {
+//
+//		@Override
+//		public int compare(Employee e1, Employee e2) {
+//			
+//			return (e1.getEmpno() - e2.getEmpno());
+//		}
 //		
-//		return this.empno - e1.empno;
+//		
+//	};
 //	
-//	}	
-	
-	public static Comparator<Employee> empnoComparator = new Comparator<Employee>() {
-
-		@Override
-		public int compare(Employee e1, Employee e2) {
-			
-			return (e1.getEmpno() - e2.getEmpno());
-		}
-		
-		
-	};
-	
 	
 }
