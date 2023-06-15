@@ -27,6 +27,7 @@ public class MainClass {
 		
 		if(login.test(user,pass))
 		{
+			System.out.println("Loading......");
 			Thread.sleep(5000);
 			System.out.println("Employee Management System");
 				do
